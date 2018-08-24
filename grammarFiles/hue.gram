@@ -1,0 +1,16 @@
+#JSGF V1.0;
+
+/*
+JSGF Grammar file for Hue commands.
+This is very helpful, because it helps sort out noise or conversation
+that you don't want to process.
+
+For example in the huecommand rule, the double set of parenthesis
+requires one word in the first set to be followed by a word in the
+second set. It won't just take a single word. Very helpful
+*/
+
+grammar hue;
+
+public <heyhue> = (lazy)(ass)(hole);
+public <huecommand> = (house | dungeon | bedroom | sala)(on | off);
